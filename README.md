@@ -1,2 +1,6 @@
-# animated_social_icons_bootstrap
-Animating social icons build with bootstrap framework
+#Animating social icons.
+
+A small piece of website create with Bootstrap framework with animations.
+
+Animating social icons like facebook, twitter, instagram and feedback.
+

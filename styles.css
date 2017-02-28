@@ -1,0 +1,89 @@
+#content {
+	position: relative;
+}
+
+.col-sm-6 {
+	padding: 0;
+}
+
+#social-block {
+	position: absolute;
+	height: 100%;
+	right: 0;
+	top: 0;
+}
+
+#social-block .row {
+	height: 50%;
+	background-color: #b1b0b0;
+}
+
+.row .social-col {
+	height: 100%;
+}
+
+#social-block .row .social {
+	display: block;
+	position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #b1b0b0;
+    color: #757575;
+    text-align: center;
+    transition: all .4s ease-in;
+}
+
+#social-block .row .social:hover {
+	background: #d4d4d4;
+} 
+
+#social-block .row .social:hover .fa:first-child {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+} 
+
+#social-block .row .social:hover .fa:last-child {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+} 
+
+#social-block .row .social .social-content {
+	transform: translateY(-50%);
+    position: relative;
+    top: 50%;
+}
+
+#social-block .row .social .socialicon {
+	position: relative;
+	width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+h4, h3 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	display: block;
+}
+
+a:hover, a:focus {
+	outline: none;
+	text-decoration: none;
+}
+
+.fa {
+    font-size: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0px 4px;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.fa:last-child {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+}
